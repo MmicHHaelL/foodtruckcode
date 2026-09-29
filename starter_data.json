@@ -1,0 +1,189 @@
+{
+    "business_name": "Bro smoothies",
+    "starting_cash": 25.0,
+    "restock_limit": 3,
+    "ingredients": {
+        "I01": {
+            "name": "unflavored whey",
+            "stock": 24,
+            "cost": 0.5
+        },
+        "I02": {
+            "name": "Strawberries",
+            "stock": 8,
+            "cost": 1.5
+        },
+        "I03": {
+            "name": "mangos",
+            "stock": 20,
+            "cost": 1.75
+        },
+        "I04": {
+            "name": "Bananas",
+            "stock": 40,
+            "cost": 0.25
+        },
+        "I05": {
+            "name": "Blueberries",
+            "stock": 10,
+            "cost": 0.5
+        },
+        "I06": {
+            "name": "Milk",
+            "stock": 40,
+            "cost": 0.25
+        },
+        "I07": {
+            "name": "Plant protein",
+            "stock": 24,
+            "cost": 1.0
+        },
+        "I08": {
+            "name": "Nut milk",
+            "stock": 30,
+            "cost": 1.0
+        }
+    },
+    "menu": {
+        "M01": {
+            "name": "Strawbana smoothie - whey ",
+            "price": 5.0,
+            "recipe": {
+                "I01": 2,
+                "I02": 1,
+                "I04": 1,
+                "I06": 1
+            }
+        },
+        "M02": {
+            "name": "strawbana smoothie - plant based",
+            "price": 7.0,
+            "recipe": {
+                "I07": 2,
+                "I02": 1,
+                "I04": 1,
+                "I08": 1
+            }
+        },
+        "M03": {
+            "name": "Strawngo smoothie - whey ",
+            "price": 5.50,
+            "recipe": {
+                "I01": 2,
+                "I02": 1,
+                "I03": 1,
+                "I06": 1
+            }
+        },
+        "M04": {
+            "name": "Strawngo smoothie - plant based ",
+            "price": 7.50,
+            "recipe": {
+                "I07": 2,
+                "I02": 1,
+                "I03": 1,
+                "I08": 1
+            }
+        },
+        "M05": {
+            "name": "mixxed berry smoothie - whey",
+            "price": 6.0,
+            "recipe": {
+                "I01": 3,
+                "I02": 1,
+                "I03": 1,
+                "I04": 1,
+                "I05": 1,
+                "I06":1
+            }
+        },
+        "M06": {
+            "name": "mixxed berry smoothie - plant based",
+            "price:": 8.0,
+            "recipe": {
+                "I07": 2,
+                "I02": 1,
+                "I03": 1,
+                "I04": 1,
+                "I05": 1,
+                "I08": 1
+
+            }
+
+        }
+
+    },
+    "orders": [
+        {
+            "id": "O01",
+            "items": {
+                "M01": 2,
+                "M03": 1
+            }
+        },
+        {
+            "id": "O02",
+            "items": {
+                "M02": 2,
+                "M05": 1
+            }
+        },
+        {
+            "id": "O03",
+            "items": {
+                "M03": 2
+            }
+        },
+        {
+            "id": "O04",
+            "items": {
+                "M04": 1,
+                "M01": 1
+            }
+        },
+        {
+            "id": "O05",
+            "items": {
+                "M05": 2,
+                "M02": 1
+            }
+        },
+        {
+            "id": "O06",
+            "items": {
+                "M04": 2,
+                "M03": 1
+            }
+        },
+        {
+            "id": "O07",
+            "items": {
+                "M01": 3,
+                "M02": 1,
+                "M05": 1
+            }
+        },
+        {
+            "id": "O08",
+            "items": {
+                "M03": 1,
+                "M05": 1
+            }
+        },
+        {
+            "id": "O09",
+            "items": {
+                "M04": 1,
+                "M02": 2
+            }
+        },
+        {
+            "id": "O10",
+            "items": {
+                "M01": 2,
+                "M04": 1,
+                "M05": 1
+            }
+        }
+    ]
+}
