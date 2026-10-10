@@ -2,7 +2,7 @@ import json
 from pathlib import Path #paths for json to connect also \n is really nice and so efficient
 
 # reads and opens json file to put into one place so i can easily put individual things in lists to make it easier also no write function so the base data can stay the same
-file_path = Path(__file__).resolve().parent / "starter_data.json"
+file_path = Path(__file__).resolve().parent / "starter_data.json(1)"
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
 
